@@ -1,0 +1,16 @@
+Project Name: andgate_evalboard
+Location: D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : A3PE1500-1PQ208I
+Family         : ProASIC3E
+Die            : A3PE1500
+Package        : 208 PQFP
+Speed          : -1
+Core Voltage   : 1.5
+Range          : IND

@@ -1,0 +1,9 @@
+D:\Microsemi\SynplifyPro\bin64\c_hdl.exe  -osyn  D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\synwork\andgate_comp.srs  -top  andgate  -hdllog  D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\synlog\andgate_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\  -I D:\Microsemi\SynplifyPro\lib   -v2001  -devicelib  D:\Microsemi\SynplifyPro\lib\proasic\proasic3e.v  -encrypt  -pro  -dmgen  D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\dm  -ui -fid2 -ram -sharing off -ll 2000 -autosm  -lib work D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\hdl\and_gate.v 
+relcom:..\..\..\..\..\..\Microsemi\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\andgate_comp.srs -top andgate -hdllog ..\synlog\andgate_compiler.srr -encrypt -mp 1 -verification_mode 0 -verilog -prodtype synplify_pro -nram -fixsmult -divnmod -I ..\ -I ..\..\..\..\..\..\Microsemi\SynplifyPro\lib -v2001 -devicelib ..\..\..\..\..\..\Microsemi\SynplifyPro\lib\proasic\proasic3e.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing off -ll 2000 -autosm -lib work ..\..\hdl\and_gate.v
+rc:0 success:1 runtime:1
+file:..\synwork\andgate_comp.srs|io:o|time:1658466287|size:1241|exec:0|csum:
+file:..\synlog\andgate_compiler.srr|io:o|time:1658466287|size:2699|exec:0|csum:
+file:..\..\..\..\..\..\Microsemi\SynplifyPro\lib\proasic\proasic3e.v|io:i|time:1508993288|size:55760|exec:0|csum:64AE7C3A692FB1B8DBD4D43CE4BE7E9F
+file:..\..\hdl\and_gate.v|io:i|time:1658466211|size:889|exec:0|csum:19A5E9582677760EEDF09FE281797882
+file:..\..\..\..\..\..\Microsemi\SynplifyPro\bin\c_hdl.exe|io:i|time:1508995516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
+file:..\..\..\..\..\..\Microsemi\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508995724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C

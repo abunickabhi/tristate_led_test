@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP6 (Version 11.9.6.7)
+
+Date      :  Fri Jul 22 10:20:03 2022
+Project   :  D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard
+Component :  andtest
+Family    :  ProASIC3E
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/Codes_MEB/All_programs/A3PE1500/andgate_evalboard/component/work/andtest/andtest.v
+

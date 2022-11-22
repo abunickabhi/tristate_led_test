@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\hdl\and_gate.v":13:7:13:13|Synthesizing module andgate in library work.
+@N: CG364 :"D:\Microsemi\SynplifyPro\lib\proasic\proasic3e.v":2143:7:2143:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\component\work\andtest\andtest.v":9:7:9:13|Synthesizing module andtest in library work.
+

@@ -1,0 +1,11 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.9 SP6 (Version 11.9.6.7)
+
+Date      :  Tue Nov 22 18:34:16 2022
+Project   :  D:\Codes_MEB\All_programs\A3PE1500\tristate_evalboard
+Component :  tristate_buff_led
+Family    :  ProASIC3E
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/component/work/tristate_buff_led/tristate_buff_led.v
+

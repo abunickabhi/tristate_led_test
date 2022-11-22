@@ -1,0 +1,2 @@
+@E: CS168 :"D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\component\work\andtest\andtest.v":58:15:58:15|Port clk does not exist
+
