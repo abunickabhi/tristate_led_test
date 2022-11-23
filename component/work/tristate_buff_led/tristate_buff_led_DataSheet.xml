@@ -11,17 +11,16 @@
     <hdl-type>Verilog</hdl-type>
     <project-description>
     </project-description>
-    <location>D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/component/work/tristate_buff_led</location>
-    <state>GENERATED ( Tue Nov 22 18:34:16 2022 )</state>
+    <location>D:/Codes_MEB/All_programs/A3PE1500/tristate_led_test/component/work/tristate_buff_led</location>
+    <state>GENERATED ( Wed Nov 23 10:23:40 2022 )</state>
     <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
   </project-settings>
   <site-map>
   </site-map>
   <fileset>
     <name>HDL File(s)</name>
-    <file>D:\Codes_MEB\All_programs\A3PE1500\tristate_evalboard\component\work\tristate_buff_led\tristate_buff_led.v</file>
-    <file>D:\Codes_MEB\All_programs\A3PE1500\tristate_evalboard\hdl\and_gate.v</file>
-    <file>D:\Codes_MEB\All_programs\A3PE1500\tristate_evalboard\hdl\control_signal.v</file>
+    <file>D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\component\work\tristate_buff_led\tristate_buff_led.v</file>
+    <file>D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\hdl\control_signal.v</file>
   </fileset>
   <io>
     <port-name>miso1_in</port-name>
@@ -31,6 +30,18 @@
   </io>
   <io>
     <port-name>dip1</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ss2</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ss1</port-name>
     <direction>IN</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>
@@ -55,6 +66,12 @@
   </io>
   <io>
     <port-name>miso1</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>miso_probe</port-name>
     <direction>OUT</direction>
     <pin-number>-</pin-number>
     <io-standard>LVTTL</io-standard>

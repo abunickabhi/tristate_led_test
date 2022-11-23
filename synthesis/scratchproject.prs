@@ -1,14 +1,15 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\scratchproject.prs
+#--  Project file D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\scratchproject.prs
 
 #project files
-add_file -verilog "D:/Codes_MEB/All_programs/A3PE1500/andgate_evalboard/hdl/and_gate.v"
+add_file -verilog "D:/Codes_MEB/All_programs/A3PE1500/tristate_led_test/hdl/control_signal.v"
+add_file -verilog "D:/Codes_MEB/All_programs/A3PE1500/tristate_led_test/component/work/tristate_buff_led/tristate_buff_led.v"
 
 
 
 #implementation: "synthesis"
-impl -add D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis -type fpga
+impl -add D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis -type fpga
 
 #
 #implementation attributes
@@ -24,7 +25,7 @@ set_option -part_companion ""
 
 #compilation/mapping options
 set_option -use_fsm_explorer 0
-set_option -top_module "andgate"
+set_option -top_module "tristate_buff_led"
 
 # hdl_compiler_options
 set_option -distributed_compile 0
@@ -70,5 +71,5 @@ set_option -auto_infer_blackbox 0
 set_option -write_apr_constraint 1
 
 #set result format/file last
-project -result_file "D:/Codes_MEB/All_programs/A3PE1500/andgate_evalboard/synthesis/andgate.edn"
+project -result_file "D:/Codes_MEB/All_programs/A3PE1500/tristate_led_test/synthesis/tristate_buff_led.edn"
 impl -active "synthesis"

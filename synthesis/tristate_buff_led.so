@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>tristate_buff_led</design>
+	<target_edif>D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\tristate_buff_led.edn</target_edif>
+</SynplifyOutput>

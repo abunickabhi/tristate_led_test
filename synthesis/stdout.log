@@ -2,10 +2,10 @@
 Starting:    D:\Microsemi\SynplifyPro\bin64\mbin\synplify.exe
 Install:     D:\Microsemi\SynplifyPro
 Hostname:    ABHI
-Date:        Fri Jul 22 10:34:42 2022
+Date:        Wed Nov 23 10:25:20 2022
 Version:     L-2016.09M-SP1-5
 
-Arguments:   -product synplify_pro andgate_syn.tcl
+Arguments:   -product synplify_pro tristate_buff_led_syn.tcl
 ProductType: synplify_pro
 
 License checkout: synplifypro_actel
@@ -16,63 +16,63 @@ License Option: actel_oem
 
 
 auto_infer_blackbox is not supported in current product.
-TCL script complete: "andgate_syn.tcl"
+TCL script complete: "tristate_buff_led_syn.tcl"
 New HDL Analyst: enabled
-log file: "D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\andgate.srr"
+log file: "D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\tristate_buff_led.srr"
 Running: synthesis in foreground
 
-Running andgate_syn|synthesis
+Running tristate_buff_led_syn|synthesis
 
-Running: compile (Compile) on andgate_syn|synthesis
-# Fri Jul 22 10:34:47 2022
+Running: compile (Compile) on tristate_buff_led_syn|synthesis
+# Wed Nov 23 10:25:22 2022
 
-Running: compile_flow (Compile Process) on andgate_syn|synthesis
-# Fri Jul 22 10:34:47 2022
+Running: compile_flow (Compile Process) on tristate_buff_led_syn|synthesis
+# Wed Nov 23 10:25:22 2022
 
-Running: compiler (Compile Input) on andgate_syn|synthesis
-# Fri Jul 22 10:34:47 2022
-Copied D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\synwork\andgate_comp.srs to D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\andgate.srs
+Running: compiler (Compile Input) on tristate_buff_led_syn|synthesis
+# Wed Nov 23 10:25:22 2022
+Copied D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\synwork\tristate_buff_led_comp.srs to D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\tristate_buff_led.srs
 
 compiler completed
-# Fri Jul 22 10:34:48 2022
+# Wed Nov 23 10:25:23 2022
 
 Return Code: 0
 Run Time:00h:00m:01s
 
-Running: multi_srs_gen (Multi-srs Generator) on andgate_syn|synthesis
-# Fri Jul 22 10:34:48 2022
+Running: multi_srs_gen (Multi-srs Generator) on tristate_buff_led_syn|synthesis
+# Wed Nov 23 10:25:23 2022
 
 multi_srs_gen completed
-# Fri Jul 22 10:34:48 2022
+# Wed Nov 23 10:25:23 2022
 
 Return Code: 0
 Run Time:00h:00m:00s
-Copied D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\synwork\andgate_mult.srs to D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\andgate.srs
-Complete: Compile Process on andgate_syn|synthesis
+Copied D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\synwork\tristate_buff_led_mult.srs to D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\tristate_buff_led.srs
+Complete: Compile Process on tristate_buff_led_syn|synthesis
 
-Running: premap (Pre-mapping) on andgate_syn|synthesis
-# Fri Jul 22 10:34:48 2022
+Running: premap (Pre-mapping) on tristate_buff_led_syn|synthesis
+# Wed Nov 23 10:25:23 2022
 
 premap completed
-# Fri Jul 22 10:34:49 2022
+# Wed Nov 23 10:25:24 2022
 
 Return Code: 0
 Run Time:00h:00m:01s
-Complete: Compile on andgate_syn|synthesis
+Complete: Compile on tristate_buff_led_syn|synthesis
 
-Running: map (Map) on andgate_syn|synthesis
-# Fri Jul 22 10:34:49 2022
+Running: map (Map) on tristate_buff_led_syn|synthesis
+# Wed Nov 23 10:25:24 2022
 
-Running: fpga_mapper (Map & Optimize) on andgate_syn|synthesis
-# Fri Jul 22 10:34:49 2022
-Copied D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\synwork\andgate_m.srm to D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\andgate.srm
+Running: fpga_mapper (Map & Optimize) on tristate_buff_led_syn|synthesis
+# Wed Nov 23 10:25:24 2022
+Copied D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\synwork\tristate_buff_led_m.srm to D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\tristate_buff_led.srm
 
 fpga_mapper completed
-# Fri Jul 22 10:34:50 2022
+# Wed Nov 23 10:25:24 2022
 
 Return Code: 0
-Run Time:00h:00m:01s
-Complete: Map on andgate_syn|synthesis
-Complete: Logic Synthesis on andgate_syn|synthesis
+Run Time:00h:00m:00s
+Complete: Map on tristate_buff_led_syn|synthesis
+Complete: Logic Synthesis on tristate_buff_led_syn|synthesis
 exit status=0
 License checkin: synplifypro_actel

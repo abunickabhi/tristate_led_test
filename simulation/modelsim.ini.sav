@@ -3,6 +3,7 @@ others = $MODEL_TECH/../modelsim.ini
 proasic3e = D:/Microsemi/Designer/lib/modelsim/precompiled/vlog/proasic3e
 syncad_vhdl_lib = D:\Microsemi\Designer/lib/actel/syncad_vhdl_lib
 
+presynth = presynth
 [vcom]
 VHDL93 = 1
 

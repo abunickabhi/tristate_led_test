@@ -7,13 +7,16 @@
 //
 /////////////////////////////////////////////////////////////////////////////////////////////////// 
 
-module control_signal (miso,ss1,ss2);
+module control_signal (miso,miso_probe,ss1,ss2);
 
 input miso;
-
-output reg ss1;
-output reg ss2;
+output reg miso_probe;
+input ss1;
+input ss2;
 //and (y,a,b);
+
+always @*
+miso_probe <= miso;
 
 endmodule
 

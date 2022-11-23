@@ -2,16 +2,16 @@
 <!-- 
   Synopsys, Inc.
   Version L-2016.09M-SP1-5
-  Project file D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\syntmp\run_option.xml
-  Written on Fri Jul 22 10:34:47 2022
+  Project file D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\syntmp\run_option.xml
+  Written on Wed Nov 23 10:25:22 2022
 
 
 --> 
 <project_attribute_list name="Project Settings"> 
-     <option name="project_name" display_name="Project Name">andgate_syn</option>
+     <option name="project_name" display_name="Project Name">tristate_buff_led_syn</option>
      <option name="device_name" display_name="Device Name">synthesis: Microsemi ProASIC3E : A3PE1500</option>
      <option name="impl_name" display_name="Implementation Name">synthesis</option>
-     <option name="top_module" display_name="Top Module">andgate</option>
+     <option name="top_module" display_name="Top Module">tristate_buff_led</option>
      <option name="retiming" display_name="Retiming">0</option>
      <option name="resource_sharing" display_name="Resource Sharing">0</option>
      <option name="maxfan" display_name="Fanout Guide">24</option>

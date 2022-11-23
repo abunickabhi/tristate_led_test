@@ -1,8 +1,8 @@
-D:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  andgate  -multisrs  D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\synwork\andgate_comp.srs  -osyn  D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\synwork\andgate_mult.srs  -log  D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\synlog\andgate_multi_srs_gen.srr 
-relcom:..\..\..\..\..\..\Microsemi\SynplifyPro\bin64\syn_nfilter.exe -link -top andgate -multisrs ..\synwork\andgate_comp.srs -osyn ..\synwork\andgate_mult.srs -log ..\synlog\andgate_multi_srs_gen.srr
+D:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  tristate_buff_led  -multisrs  D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\synwork\tristate_buff_led_comp.srs  -osyn  D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\synwork\tristate_buff_led_mult.srs  -log  D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\synlog\tristate_buff_led_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\Microsemi\SynplifyPro\bin64\syn_nfilter.exe -link -top tristate_buff_led -multisrs ..\synwork\tristate_buff_led_comp.srs -osyn ..\synwork\tristate_buff_led_mult.srs -log ..\synlog\tristate_buff_led_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:..\synwork\andgate_comp.srs|io:i|time:1658466287|size:1241|exec:0|csum:E203AE5BC8B3635BB78999FFF012CEA5
-file:..\synwork\andgate_mult.srs|io:o|time:1658466288|size:1132|exec:0|csum:
-file:..\synlog\andgate_multi_srs_gen.srr|io:o|time:1658466288|size:409|exec:0|csum:
+file:..\synwork\tristate_buff_led_comp.srs|io:i|time:1669179322|size:3134|exec:0|csum:8F62203518610641A89AA02ED014B8F6
+file:..\synwork\tristate_buff_led_mult.srs|io:o|time:1669179323|size:2930|exec:0|csum:
+file:..\synlog\tristate_buff_led_multi_srs_gen.srr|io:o|time:1669179323|size:535|exec:0|csum:
 file:..\..\..\..\..\..\Microsemi\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508995612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
 file:..\..\..\..\..\..\Microsemi\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508995884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0
