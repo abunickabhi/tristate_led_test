@@ -3,11 +3,11 @@ Report for cell tristate_buff_led.verilog
                                           Cell usage:
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
-                              INBUF         6       0.0        0.0
+                              INBUF         8       0.0        0.0
                               NAND2         2       1.0        2.0
                                 OR2         1       1.0        1.0
                              OUTBUF         1       0.0        0.0
                             TRIBUFF         2       0.0        0.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             14                  3.0
+                         TOTAL             16                  3.0

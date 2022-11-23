@@ -1,5 +1,5 @@
 *****************************************************************
-Pin Report - Date: Wed Nov 23 10:22:13 2022 UNCOMPLETED LAYOUT
+Pin Report - Date: Wed Nov 23 13:10:31 2022 UNCOMPLETED LAYOUT
 Product: Designer
 Release: v11.9 SP6
 Version: 11.9.6.7
@@ -8,11 +8,14 @@ Family: ProASIC3E
 Die: A3PE1500
 Package: 208 PQFP
 *****************************************************************
-Port  |Pin |Fixed |Function         |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Input Delay |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
-------|----|------|-----------------|--------|------------------|-----|--------------|----------------|------------|-----|-----------------|------------|--------------|
-dip1   4    Yes    GAB2/IO220PSB7V3  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
-dip2   6    Yes    IO221NDB7V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
-miso1  12   Yes    IO212NDB7V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
-miso2  14   Yes    IO208NDB7V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
-ss1    8    Yes    IO219NDB7V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
-ss2    10   Yes    IO215NDB7V3       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+Port       |Pin        |Fixed      |Function         |I/O Std |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Input Delay |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------|-----------|-----------|-----------------|--------|------------------|-----|--------------|----------------|------------|-----|-----------------|------------|--------------|
+miso1       12          Yes         IO212NDB7V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+miso1_in    20          Yes         IO200NDB7V1       LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+miso2       14          Yes         IO208NDB7V2       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+miso2_in    22          Yes         GFC1/IO192PSB7V0  LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+miso_probe  70          Yes         IO149PDB5V1       LVTTL    12                 High  None           ---              ---          No    35                No           Yes
+mock_miso1  Unassigned  Unassigned                    LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+mock_miso2  Unassigned  Unassigned                    LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+ss1         151         Yes         GBC2/IO60PSB2V0   LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes
+ss2         147         Yes         IO67NDB2V1        LVTTL    ---                ---   None           No               Off          ---   ---               No           Yes

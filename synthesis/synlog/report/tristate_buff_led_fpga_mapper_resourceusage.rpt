@@ -14,15 +14,15 @@ Report for cell tristate_buff_led.verilog
 
   IO Cell usage:
               cell count
-             INBUF     6
+             INBUF     8
             OUTBUF     1
            TRIBUFF     2
                    -----
-             TOTAL     9
+             TOTAL    11
 
 
 Core Cells         : 3 of 38400 (0%)
-IO Cells           : 9
+IO Cells           : 11
 
   RAM/ROM Usage Summary
 Block Rams : 0 of 60 (0%)

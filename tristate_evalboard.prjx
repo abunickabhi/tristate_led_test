@@ -53,8 +53,8 @@ SIZE="413"
 ENDFILE
 VALUE "<project>\component\work\tristate_buff_led\tristate_buff_led.cxf,actgen_cxf"
 STATE="utd"
-TIME="1669178086"
-SIZE="2465"
+TIME="1669189121"
+SIZE="2935"
 ENDFILE
 VALUE "<project>\designer\impl1\andgate.pdb,pdb"
 STATE="ood"
@@ -86,15 +86,30 @@ STATE="utd"
 TIME="1669121947"
 SIZE="222"
 ENDFILE
+VALUE "<project>\designer\impl1\tristate_buff_led.pdb,pdb"
+STATE="ood"
+TIME="1669179474"
+SIZE="104663"
+ENDFILE
 VALUE "<project>\designer\impl1\tristate_buff_led_compile_log.rpt,log"
 STATE="utd"
 TIME="1669177974"
 SIZE="3062"
 ENDFILE
+VALUE "<project>\designer\impl1\tristate_buff_led_newpins.pdb,pdb"
+STATE="utd"
+TIME="1669188056"
+SIZE="104948"
+ENDFILE
+VALUE "<project>\designer\impl1\tristate_buff_led_rst.pdb,pdb"
+STATE="utd"
+TIME="1669187361"
+SIZE="104698"
+ENDFILE
 VALUE "<project>\hdl\control_signal.v,hdl"
 STATE="utd"
-TIME="1669178041"
-SIZE="461"
+TIME="1669189045"
+SIZE="561"
 ENDFILE
 VALUE "<project>\simulation\run.do,do"
 STATE="utd"

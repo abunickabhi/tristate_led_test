@@ -1,10 +1,10 @@
 D:\Microsemi\SynplifyPro\bin64\c_hdl.exe  -osyn  D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\synwork\tristate_buff_led_comp.srs  -top  tristate_buff_led  -hdllog  D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\synlog\tristate_buff_led_compiler.srr  -encrypt  -mp  1  -verification_mode 0  -verilog  -prodtype  synplify_pro  -nram -fixsmult -divnmod   -I D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\  -I D:\Microsemi\SynplifyPro\lib   -v2001  -devicelib  D:\Microsemi\SynplifyPro\lib\proasic\proasic3e.v  -encrypt  -pro  -dmgen  D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\synthesis\dm  -ui -fid2 -ram -sharing off -ll 2000 -autosm  -lib work D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\hdl\control_signal.v -lib work D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\component\work\tristate_buff_led\tristate_buff_led.v 
 relcom:..\..\..\..\..\..\Microsemi\SynplifyPro\bin64\c_hdl.exe -osyn ..\synwork\tristate_buff_led_comp.srs -top tristate_buff_led -hdllog ..\synlog\tristate_buff_led_compiler.srr -encrypt -mp 1 -verification_mode 0 -verilog -prodtype synplify_pro -nram -fixsmult -divnmod -I ..\ -I ..\..\..\..\..\..\Microsemi\SynplifyPro\lib -v2001 -devicelib ..\..\..\..\..\..\Microsemi\SynplifyPro\lib\proasic\proasic3e.v -encrypt -pro -dmgen ..\dm -ui -fid2 -ram -sharing off -ll 2000 -autosm -lib work ..\..\hdl\control_signal.v -lib work ..\..\component\work\tristate_buff_led\tristate_buff_led.v
 rc:0 success:1 runtime:1
-file:..\synwork\tristate_buff_led_comp.srs|io:o|time:1669179322|size:3134|exec:0|csum:
-file:..\synlog\tristate_buff_led_compiler.srr|io:o|time:1669179322|size:3994|exec:0|csum:
+file:..\synwork\tristate_buff_led_comp.srs|io:o|time:1669189252|size:3267|exec:0|csum:
+file:..\synlog\tristate_buff_led_compiler.srr|io:o|time:1669189252|size:3892|exec:0|csum:
 file:..\..\..\..\..\..\Microsemi\SynplifyPro\lib\proasic\proasic3e.v|io:i|time:1508993288|size:55760|exec:0|csum:64AE7C3A692FB1B8DBD4D43CE4BE7E9F
-file:..\..\hdl\control_signal.v|io:i|time:1669179191|size:528|exec:0|csum:97A2E0CD2E5481D1BDEA950BC0C5777A
-file:..\..\component\work\tristate_buff_led\tristate_buff_led.v|io:i|time:1669179310|size:3080|exec:0|csum:8882CFD9CF00ABF020C6288BFC4FE16F
+file:..\..\hdl\control_signal.v|io:i|time:1669189045|size:561|exec:0|csum:DBED9D5FDFF1988C2DC9D75660145969
+file:..\..\component\work\tristate_buff_led\tristate_buff_led.v|io:i|time:1669189243|size:3252|exec:0|csum:C87165910FAC3B7B92F67B48DD69C581
 file:..\..\..\..\..\..\Microsemi\SynplifyPro\bin\c_hdl.exe|io:i|time:1508995516|size:1338368|exec:1|csum:4BE9471CC8F1F34D3F79DD6F3C07C7F5
 file:..\..\..\..\..\..\Microsemi\SynplifyPro\bin64\c_hdl.exe|io:i|time:1508995724|size:1754112|exec:1|csum:0724D6BF71D325162DC071CC1383571C
