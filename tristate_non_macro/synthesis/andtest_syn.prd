@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version L-2016.09M-SP1-5
+#--  Project file D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\synthesis\andtest_syn.prd
+#--  Written on Fri Jul 22 10:34:32 2022
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

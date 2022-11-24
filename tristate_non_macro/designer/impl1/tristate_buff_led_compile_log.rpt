@@ -1,0 +1,1020 @@
+Microsemi Libero Software
+Version: 11.9.6.7
+Release: v11.9 SP6
+
+
+ Netlist Reading Time = 0.0 seconds
+Imported the file:
+
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\synthesis\tristate_buff\
+_led.edn
+
+The Import command succeeded ( 00:00:03 )
+Info: The design
+      D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tr\
+      istate_buff_led.adb was last modified by software version 11.9.6.7.
+Opened an existing Libero design
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led.adb.
+'BA_NAME' set to 'tristate_buff_led_ba'
+'KEEP_EXISTING_PHYSICAL_CONSTRAINTS' set to '1'
+'SDC_IMPORT_MERGE' set to '1'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+
+The Execute Script command succeeded ( 00:00:00 )
+Checking for software updates...
+This software version is up to date.
+=====================================================================
+Parameters used to run compile:
+===============================
+
+Family      : ProASIC3E
+Device      : A3PE1500
+Package     : 208 PQFP
+Source      :
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\synthesis\tristate_buff\
+_led.edn
+Format      : EDIF
+Topcell     : tristate_buff_led
+Speed grade : -1
+Temp        : -40:25:85
+Voltage     : 1.58:1.50:1.42
+
+Keep Existing Physical Constraints : Yes
+Keep Existing Timing Constraints   : Yes
+
+pdc_abort_on_error                 : Yes
+pdc_eco_display_unmatched_objects  : No
+pdc_eco_max_warnings               : 10000
+
+demote_globals                     : No
+promote_globals                    : No
+localclock_max_shared_instances    : 12
+localclock_buffer_tree_max_fanout  : 12
+
+combine_register                   : No
+delete_buffer_tree                 : No
+
+report_high_fanout_nets_limit      : 10
+
+=====================================================================
+Compile starts ...
+
+Warning: Top level port clk is not connected to any IO pad
+Warning: Top level port rst is not connected to any IO pad
+
+Netlist Optimization Report
+===========================
+
+Optimized macros:
+  - Dangling net drivers:   0
+  - Buffers:                0
+  - Inverters:              0
+  - Tieoff:                 0
+  - Logic combining:        0
+
+    Total macros optimized  0
+
+There were 0 error(s) and 2 warning(s) in this design.
+=====================================================================
+
+Reading previous post-compile physical placement constraints.
+
+
+There were 0 error(s) and 0 warning(s).
+
+=====================================================================
+Compile report:
+===============
+
+    CORE                       Used:      1  Total:  38400   (0.00%)
+    IO (W/ clocks)             Used:      5  Total:    147   (3.40%)
+    Differential IO            Used:      0  Total:     65   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      2   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     60   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Global Information:
+
+    Type            | Used   | Total
+    ----------------|--------|--------------
+    Chip global     | 0      | 6  (0.00%)*
+    Quadrant global | 0      | 12 (0.00%)
+
+    (*) Chip globals may be assigned to Quadrant globals using the Multi-View Navigator (MVN)
+        or Physical Design Constraints (PDC).
+        They may also be assigned to Quadrant globals automatically during Layout.
+
+Core Information:
+
+    Type    | Instances    | Core tiles
+    --------|--------------|-----------
+    COMB    | 1            | 1
+    SEQ     | 0            | 0
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 3             | 0            | 0
+    Output I/O                            | 2             | 0            | 0
+    Bidirectional I/O                     | 0             | 0            | 0
+    Differential Input I/O Pairs          | 0             | 0            | 0
+    Differential Output I/O Pairs         | 0             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vcci  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVTTL                           | 3.30v | N/A   | 3     | 1      | 0
+    LVCMOS33                        | 3.30v | N/A   | 0     | 1      | 0
+
+I/O Placement:
+
+    Locked  :   3 ( 60.00% )
+    Placed  :   0
+    UnPlaced:   2 ( 40.00% )
+
+Warning: Only some I/Os are locked
+
+Net information report:
+=======================
+
+High fanout nets in the post compile netlist:
+    Fanout  Type          Name
+    --------------------------
+    1       INT_NET       Net   : INV_0_Y
+                          Driver: INV_0
+    1       INT_NET       Net   : mock_miso1_c
+                          Driver: mock_miso1_pad
+    1       INT_NET       Net   : ss1_c
+                          Driver: ss1_pad
+    1       INT_NET       Net   : miso1_in_c_c
+                          Driver: miso1_in_pad
+
+Nets that are candidates for clock assignment and the resulting fanout:
+    Fanout  Type          Name
+    --------------------------
+    1       INT_NET       Net   : mock_miso1_c
+                          Driver: mock_miso1_pad
+    1       INT_NET       Net   : ss1_c
+                          Driver: ss1_pad
+    1       INT_NET       Net   : miso1_in_c_c
+                          Driver: miso1_in_pad
+
+The Compile command succeeded ( 00:00:02 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin4'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: ON
+Incremental Route: ON
+
+
+Info: I/O Bank Assigner detected (8) out of (8) I/O Bank(s) with locked I/O technologies.
+Info: I/O Bank Assigner is running in incremental mode. All pre-assigned I/O Bank technologies
+      will not be changed.
+Info: All I/O Banks have locked technologies. Skipping I/O Bank Assigner.
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 10:50:24 2022
+
+Placer Finished: Thu Nov 24 10:50:25 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+INFO: Writing the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led.dtf\swloc
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 10:50:27 2022
+
+4 nets of 5 have to be routed incrementally.
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 10:50:37 2022
+Total CPU Time:     00:00:09            Total Elapsed Time: 00:00:10
+Total Memory Usage: 506.9 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:18 )
+
+The Export-map command succeeded ( 00:00:28 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin4.pdb
+CHECKSUM: 995D
+
+The Generate programming file command succeeded ( 00:00:49 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin150'. This may impact Libero. Do you wish to continue? [YES]
+Warning: Before proceeding, the following tool(s) must be shut down:
+         MultiView Navigator:
+             I/O Attribute Editor
+             
+          [OK]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 11:00:15 2022
+
+Placer Finished: Thu Nov 24 11:00:15 2022
+Total Placer CPU Time:     00:00:00
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 11:00:17 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 11:00:26 2022
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
+Total Memory Usage: 507.0 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:16 )
+
+The Export-map command succeeded ( 00:00:28 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin150.pdb
+CHECKSUM: C396
+
+The Generate programming file command succeeded ( 00:00:51 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin5'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: ON
+Incremental Route: ON
+
+
+Info: I/O Bank Assigner detected (8) out of (8) I/O Bank(s) with locked I/O technologies.
+Info: I/O Bank Assigner is running in incremental mode. All pre-assigned I/O Bank technologies
+      will not be changed.
+Info: All I/O Banks have locked technologies. Skipping I/O Bank Assigner.
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 11:21:42 2022
+
+Placer Finished: Thu Nov 24 11:21:42 2022
+Total Placer CPU Time:     00:00:00
+
+                        o - o - o - o - o - o
+
+INFO: Writing the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led.dtf\swloc
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 11:21:44 2022
+
+3 nets of 5 have to be routed incrementally.
+ 
+Warning: [unable_to_preserve_routing]:
+    Unable to preserve routing for 1 nets and they have been rerouted.
+    mock_miso1_c
+
+Timing-driven Router completed with notes.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 11:21:55 2022
+Warnings reported:                1
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:11
+Total Memory Usage: 506.9 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:17 )
+
+The Export-map command succeeded ( 00:00:28 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin5.pdb
+CHECKSUM: 1A82
+
+The Generate programming file command succeeded ( 00:00:49 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin6'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 11:27:28 2022
+
+Placer Finished: Thu Nov 24 11:27:29 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 11:27:31 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 11:27:42 2022
+Total CPU Time:     00:00:11            Total Elapsed Time: 00:00:11
+Total Memory Usage: 507.3 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:19 )
+
+The Export-map command succeeded ( 00:00:28 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin6.pdb
+CHECKSUM: 371A
+
+The Generate programming file command succeeded ( 00:00:50 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin160'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 11:31:05 2022
+
+Placer Finished: Thu Nov 24 11:31:06 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 11:31:08 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 11:31:16 2022
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:08
+Total Memory Usage: 506.7 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:17 )
+
+The Export-map command succeeded ( 00:00:30 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin160.pdb
+CHECKSUM: 7B2E
+
+The Generate programming file command succeeded ( 00:00:50 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin7'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 11:38:36 2022
+
+Placer Finished: Thu Nov 24 11:38:37 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 11:38:39 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 11:38:50 2022
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:11
+Total Memory Usage: 507.2 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:19 )
+
+The Export-map command succeeded ( 00:00:28 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin7.pdb
+CHECKSUM: 5BD9
+
+The Generate programming file command succeeded ( 00:00:50 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin8'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 11:42:08 2022
+
+Placer Finished: Thu Nov 24 11:42:09 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 11:42:11 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 11:42:23 2022
+Total CPU Time:     00:00:11            Total Elapsed Time: 00:00:12
+Total Memory Usage: 506.6 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:19 )
+
+The Export-map command succeeded ( 00:00:29 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin8.pdb
+CHECKSUM: D2D7
+
+The Generate programming file command succeeded ( 00:00:51 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin149'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 11:59:54 2022
+
+Placer Finished: Thu Nov 24 11:59:54 2022
+Total Placer CPU Time:     00:00:00
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 11:59:56 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 12:00:05 2022
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
+Total Memory Usage: 506.8 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:17 )
+
+The Export-map command succeeded ( 00:00:29 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin149.pdb
+CHECKSUM: DEF8
+
+The Generate programming file command succeeded ( 00:00:49 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin147'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 12:07:58 2022
+
+Placer Finished: Thu Nov 24 12:07:59 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 12:08:01 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 12:08:10 2022
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
+Total Memory Usage: 507.1 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:17 )
+
+The Export-map command succeeded ( 00:00:30 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin147.pdb
+CHECKSUM: 6D5C
+
+The Generate programming file command succeeded ( 00:00:49 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin146'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 12:14:06 2022
+
+Placer Finished: Thu Nov 24 12:14:07 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 12:14:09 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 12:14:18 2022
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
+Total Memory Usage: 508.1 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:19 )
+
+The Export-map command succeeded ( 00:00:29 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin146.pdb
+CHECKSUM: 355E
+
+The Generate programming file command succeeded ( 00:00:51 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin145'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 12:18:29 2022
+
+Placer Finished: Thu Nov 24 12:18:29 2022
+Total Placer CPU Time:     00:00:00
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 12:18:31 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 12:18:40 2022
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:09
+Total Memory Usage: 507.1 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:17 )
+
+The Export-map command succeeded ( 00:00:28 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin145.pdb
+CHECKSUM: F50E
+
+The Generate programming file command succeeded ( 00:00:48 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin144'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 12:43:43 2022
+
+Placer Finished: Thu Nov 24 12:43:44 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 12:43:46 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 12:43:54 2022
+Total CPU Time:     00:00:08            Total Elapsed Time: 00:00:08
+Total Memory Usage: 506.8 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:17 )
+
+The Export-map command succeeded ( 00:00:30 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin144.pdb
+CHECKSUM: A8B8
+
+The Generate programming file command succeeded ( 00:00:52 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin206'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 12:54:32 2022
+
+Placer Finished: Thu Nov 24 12:54:33 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 12:54:35 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 12:54:46 2022
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:11
+Total Memory Usage: 506.6 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:19 )
+
+The Export-map command succeeded ( 00:00:28 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin206.pdb
+CHECKSUM: B589
+
+The Generate programming file command succeeded ( 00:00:50 )
+Warning: You changed the output filename from
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led' to
+         'D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl\
+         1\tristate_buff_led_pin205'. This may impact Libero. Do you wish to continue? [YES]
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Thu Nov 24 12:58:09 2022
+
+Placer Finished: Thu Nov 24 12:58:10 2022
+Total Placer CPU Time:     00:00:01
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: tristate_buff_led               Started: Thu Nov 24 12:58:12 2022
+
+ 
+
+Timing-driven Router completed successfully.
+
+Design: tristate_buff_led               
+Finished: Thu Nov 24 12:58:23 2022
+Total CPU Time:     00:00:10            Total Elapsed Time: 00:00:11
+Total Memory Usage: 506.8 Mbytes
+                        o - o - o - o - o - o
+
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:19 )
+
+The Export-map command succeeded ( 00:00:29 )
+Wrote to the file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_pin205.pdb
+CHECKSUM: FDAC
+
+The Generate programming file command succeeded ( 00:00:52 )
+Design saved to file
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led.adb.
+Wrote pin report to file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file:
+D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\designer\impl1\tristate\
+_buff_led_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+
+The Execute Script command succeeded ( 00:00:02 )
+Design closed.
+

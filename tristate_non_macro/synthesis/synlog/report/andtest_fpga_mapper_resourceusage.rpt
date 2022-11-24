@@ -1,0 +1,28 @@
+Target Part: A3PE1500_PQFP208_-1
+Report for cell andtest.verilog
+  Core Cell usage:
+              cell count     area count*area
+            CLKINT     2      0.0        0.0
+               GND     2      0.0        0.0
+               VCC     2      0.0        0.0
+
+
+            DFN0C1     1      1.0        1.0
+                   -----          ----------
+             TOTAL     7                 1.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     2
+            OUTBUF     3
+                   -----
+             TOTAL     5
+
+
+Core Cells         : 1 of 38400 (0%)
+IO Cells           : 5
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 60 (0%)
+

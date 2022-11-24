@@ -1,0 +1,2 @@
+@E: CG666 :"D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\hdl\and_gate.v":13:21:13:25|Parse error at unexpected input token 'reset'
+

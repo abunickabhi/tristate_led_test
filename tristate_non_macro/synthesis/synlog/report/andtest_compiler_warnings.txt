@@ -1,0 +1,2 @@
+@W: CL207 :"D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\hdl\and_gate.v":20:0:20:5|All reachable assignments to y assign 1, register removed by optimization.
+

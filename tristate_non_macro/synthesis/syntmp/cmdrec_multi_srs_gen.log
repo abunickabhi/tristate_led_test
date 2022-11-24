@@ -1,0 +1,8 @@
+D:\Microsemi\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  tristate_buff_led  -multisrs  D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\synthesis\synwork\tristate_buff_led_comp.srs  -osyn  D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\synthesis\synwork\tristate_buff_led_mult.srs  -log  D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\tristate_non_macro\synthesis\synlog\tristate_buff_led_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\Microsemi\SynplifyPro\bin64\syn_nfilter.exe -link -top tristate_buff_led -multisrs ..\synwork\tristate_buff_led_comp.srs -osyn ..\synwork\tristate_buff_led_mult.srs -log ..\synlog\tristate_buff_led_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\tristate_buff_led_comp.srs|io:i|time:1669266836|size:2917|exec:0|csum:E2ED5330DAC7D2F0DF46A601B174518F
+file:..\synwork\tristate_buff_led_mult.srs|io:o|time:1669266837|size:2556|exec:0|csum:
+file:..\synlog\tristate_buff_led_multi_srs_gen.srr|io:o|time:1669266837|size:554|exec:0|csum:
+file:..\..\..\..\..\..\..\Microsemi\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1508995612|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\..\..\..\Microsemi\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1508995884|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

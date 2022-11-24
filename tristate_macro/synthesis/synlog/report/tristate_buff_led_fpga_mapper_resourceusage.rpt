@@ -1,0 +1,29 @@
+Target Part: A3PE1500_PQFP208_-1
+Report for cell tristate_buff_led.verilog
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+             NAND2     2      1.0        2.0
+               OR2     1      1.0        1.0
+               VCC     1      0.0        0.0
+
+
+                   -----          ----------
+             TOTAL     5                 3.0
+
+
+  IO Cell usage:
+              cell count
+             INBUF     8
+            OUTBUF     1
+   TRIBUFF_LVCMOS33     2
+                   -----
+             TOTAL    11
+
+
+Core Cells         : 3 of 38400 (0%)
+IO Cells           : 11
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 60 (0%)
+

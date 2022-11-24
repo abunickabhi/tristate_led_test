@@ -1,0 +1,1 @@
+@W: MT532 :"d:\codes_meb\all_programs\a3pe1500\andgate_evalboard\hdl\and_gate.v":20:0:20:5|Found signal identified as System clock which controls 1 sequential elements including andgate_0.y.  Using this clock, which has no specified timing constraint, can adversely impact design performance. 

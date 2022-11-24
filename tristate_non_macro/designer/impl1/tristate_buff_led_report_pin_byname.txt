@@ -1,0 +1,17 @@
+*****************************************************************
+Pin Report - Date: Thu Nov 24 13:04:34 2022 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP6
+Version: 11.9.6.7
+Design Name: tristate_buff_led
+Family: ProASIC3E
+Die: A3PE1500
+Package: 208 PQFP
+*****************************************************************
+Port       |Pin |Fixed |Function        |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Schmitt Trigger |Input Delay |Skew |Output Load (pF) |Use I/O Reg |Hot Swappable |
+-----------|----|------|----------------|---------|------------------|-----|--------------|----------------|------------|-----|-----------------|------------|--------------|
+miso1       205  Yes    GAA1/IO00PDB0V0  LVCMOS33  12                 High  None           ---              ---          No    35                No           Yes
+miso1_in    159  Yes    GBA1/IO57PDB1V3  LVTTL     ---                ---   None           No               Off          ---   ---               No           Yes
+miso_probe  153  Yes    GBB2/IO59PSB2V0  LVTTL     12                 High  None           ---              ---          No    35                No           Yes
+mock_miso1  152  Yes    GBA2/IO58PSB2V0  LVTTL     ---                ---   None           No               Off          ---   ---               No           Yes
+ss1         151  Yes    GBC2/IO60PSB2V0  LVTTL     ---                ---   None           No               Off          ---   ---               No           Yes

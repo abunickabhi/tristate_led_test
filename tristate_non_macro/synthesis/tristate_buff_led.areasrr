@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell tristate_buff_led.verilog
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              INBUF         3       0.0        0.0
+                                INV         1       1.0        1.0
+                             OUTBUF         1       0.0        0.0
+                   TRIBUFF_LVCMOS33         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              8                  2.0

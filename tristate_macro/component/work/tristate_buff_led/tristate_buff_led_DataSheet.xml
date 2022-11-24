@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>tristate_buff_led</header>
+  <project-settings>
+    <fam>ProASIC3E</fam>
+    <die>A3PE1500</die>
+    <package>208 PQFP</package>
+    <speed-grade>-1</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>D:/Codes_MEB/All_programs/A3PE1500/tristate_led_test/component/work/tristate_buff_led</location>
+    <state>GENERATED ( Wed Nov 23 13:54:09 2022 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\component\work\tristate_buff_led\tristate_buff_led.v</file>
+    <file>D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\hdl\control_signal.v</file>
+  </fileset>
+  <io>
+    <port-name>ss2</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>rst</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>miso2</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <io>
+    <port-name>mock_miso1</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>clk</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>miso2_in</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>ss1</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>mock_miso2</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>miso_probe</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>miso1_in</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>miso1</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVCMOS33</io-standard>
+  </io>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>control_signal</core-exttype>
+    <core-location>hdl\control_signal.v</core-location>
+    <core-name>control_signal</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>NAND2</core-exttype>
+    <core-name>NAND2_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>NAND2</core-exttype>
+    <core-name>NAND2_1</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>OR2</core-exttype>
+    <core-name>OR2_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>TRIBUFF_LVCMOS33</core-exttype>
+    <core-name>TRIBUFF_LVCMOS33_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>TRIBUFF_LVCMOS33</core-exttype>
+    <core-name>TRIBUFF_LVCMOS33_1</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for tristate_buff_led</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

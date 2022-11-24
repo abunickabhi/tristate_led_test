@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="datasheet.xsl"?>
+<datasheet>
+  <header>andtest</header>
+  <project-settings>
+    <fam>ProASIC3E</fam>
+    <die>A3PE1500</die>
+    <package>208 PQFP</package>
+    <speed-grade>-1</speed-grade>
+    <voltage>1.5</voltage>
+    <hdl-type>Verilog</hdl-type>
+    <project-description>
+    </project-description>
+    <location>D:/Codes_MEB/All_programs/A3PE1500/andgate_evalboard/component/work/andtest</location>
+    <state>GENERATED ( Fri Jul 22 10:20:03 2022 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <fileset>
+    <name>HDL File(s)</name>
+    <file>D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\component\work\andtest\andtest.v</file>
+    <file>D:\Codes_MEB\All_programs\A3PE1500\andgate_evalboard\hdl\and_gate.v</file>
+  </fileset>
+  <io>
+    <port-name>reset</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>b</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>a</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>clk</port-name>
+    <direction>IN</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <io>
+    <port-name>y</port-name>
+    <direction>OUT</direction>
+    <pin-number>-</pin-number>
+    <io-standard>LVTTL</io-standard>
+  </io>
+  <core type="HdlModule">
+    <core-type>HdlModule</core-type>
+    <core-exttype>andgate</core-exttype>
+    <core-location>hdl\and_gate.v</core-location>
+    <core-name>andgate_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>CLKINT</core-exttype>
+    <core-name>CLKINT_0</core-name>
+  </core>
+  <core type="AdlibModule">
+    <core-type>AdlibModule</core-type>
+    <core-exttype>CLKINT</core-exttype>
+    <core-name>CLKINT_1</core-name>
+  </core>
+  <memorysystem>
+    <title>Memory Map for andtest</title>
+    <description>The project does not contain any subsystems.</description>
+  </memorysystem>
+</datasheet>

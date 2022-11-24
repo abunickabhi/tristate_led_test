@@ -1,0 +1,4 @@
+@W: CG146 :"D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\hdl\control_signal.v":10:7:10:20|Creating black box for empty module control_signal
+@W: CL168 :"D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\component\work\tristate_buff_led\tristate_buff_led.v":89:4:89:8|Removing instance OR2_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"D:\Codes_MEB\All_programs\A3PE1500\tristate_led_test\component\work\tristate_buff_led\tristate_buff_led.v":63:15:63:35|Removing instance control_signal_inst_0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+

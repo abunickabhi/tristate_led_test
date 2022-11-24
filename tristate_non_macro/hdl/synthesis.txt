@@ -1,0 +1,15 @@
+wire   dip1;
+wire   dip2;
+wire   miso1_net_0;
+wire   miso1_in /* synthesis syn_keep=1 */;
+wire   miso2_net_0;
+wire   miso2_in /* synthesis syn_keep=1 */;
+wire   miso_probe_net_0;
+wire   NAND2_0_Y;
+wire   NAND2_1_Y;
+wire   OR2_0_Y;
+wire   ss1;
+wire   ss2;
+wire   miso1_net_1;
+wire   miso2_net_1;
+wire   miso_probe_net_1;

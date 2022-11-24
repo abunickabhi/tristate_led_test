@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/simulation
+vcontrol_signal
+Z1 !s110 1669122498
+!i10b 1
+!s100 >?z?[PcnPWQN4?>4S>ZA91
+IRfDX0miMB:4e]A>7C3Ua41
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1669122106
+8D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/hdl/control_signal.v
+FD:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/hdl/control_signal.v
+L0 10
+Z3 OW;L;10.5c;63
+r1
+!s85 0
+31
+Z4 !s108 1669122498.000000
+!s107 D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/hdl/control_signal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/hdl/control_signal.v|
+!s101 -O0
+!i113 1
+Z5 o-vlog01compat -work presynth -O0
+Z6 tCvgOpt 0
+vtristate_buff_led
+R1
+!i10b 1
+!s100 zGPMHUU`T2`_`CQh2EIz<0
+Ic6aWB@:7h49:1F=fV:kH<2
+R2
+R0
+w1669122255
+8D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/component/work/tristate_buff_led/tristate_buff_led.v
+FD:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/component/work/tristate_buff_led/tristate_buff_led.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/component/work/tristate_buff_led/tristate_buff_led.v|
+!s90 -reportprogress|300|-vlog01compat|-work|presynth|D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/component/work/tristate_buff_led/tristate_buff_led.v|
+!s101 -O0
+!i113 1
+R5
+R6
+vtristate_testbench
+R1
+!i10b 1
+!s100 _]nJGzM_Wng`jK2?R09h30
+ILBCb?Z[mI8MjTK<0XY1Y?0
+R2
+R0
+w1669122464
+8D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/stimulus/tristate_testbench.v
+FD:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/stimulus/tristate_testbench.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/stimulus/tristate_testbench.v|
+!s90 -reportprogress|300|+incdir+D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/stimulus|-vlog01compat|-work|presynth|D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/stimulus/tristate_testbench.v|
+!s101 -O0
+!i113 1
+R5
+!s92 +incdir+D:/Codes_MEB/All_programs/A3PE1500/tristate_evalboard/stimulus -vlog01compat -work presynth -O0
+R6
